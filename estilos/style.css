@@ -1,0 +1,99 @@
+body{
+    font-family: "Roboto Mono", monospace;
+    min-height: 400px;
+    background-image: url('https://p7z2w8n8.rocketcdn.me/wp-content/uploads/2021/08/mercado-de-cambio-1.jpg');
+    background-size: 220vh;
+    background-repeat: no-repeat;
+}
+
+.container{
+    text-align: center;
+    margin-top: 35px;
+}
+
+.page-title{
+    font-size: 31px;
+    color: #000000;
+}
+
+.subtitle{
+    font-size: 25px;
+    color: #eeeeee;
+}
+
+.box{
+    height: 380px;
+    width: 40%;
+    border: solid 5px;
+    background-color:#B0C4DE;
+    margin-left: 30%;
+}
+
+.boxes{
+    font-family: 'Courier New black', Courier, monospace;
+    color: #080708;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+#valorInserido{
+    background: linear-gradient(rgb(33, 33, 145),white);
+    width: 110px;
+}
+
+#escolher1, #escolher2{
+    font-size: 16px;
+    background: linear-gradient(#212191,#ffffff 60%);
+    width: 120px;
+}
+
+#barra1{
+    margin-top: 15px;
+    border: solid 1px black;
+}
+
+#barra2{
+    margin-top: 15px;
+    border: solid 1px black;
+}
+
+#valorconvertido{
+    margin-top: 10px;
+    font-family: 'Courier New black', Courier, monospace;
+    color: #000000;
+    font-size: 17px;
+    background-color: #77bb2ad3;
+    border: solid 2px black;
+    border-radius: 5px;
+    width: 100px;
+    margin-left: 40%;
+}
+#bot{
+    font-size: 16px;
+    color: white;
+    margin-top: 25px;
+    background: linear-gradient(90deg,#212191 70%,#ffffff);
+    width: 100px;
+}
+
+#res{
+    margin-top: 10px;
+}
+
+.page-logo{
+    position: absolute;
+    width: 150px;
+    left:0px;
+    top:10px;
+    margin-left:10px;
+}
+
+.logo-alura{
+    position: absolute;
+    width: 50px;
+    right:0px;
+    top: 8px;
+    margin-right: 10px;
+}

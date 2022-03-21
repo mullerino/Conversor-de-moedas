@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Imersão Dev - Aula 02</title>
+        <link rel="stylesheet" href="estilos/style.css" type="text/css"  media="screen">
+        <script src="script.js" defer></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1 class="page-title">Conversor de moedas</h1>
+            <h2 class="subtitle">Descubra quanto vale uma determinada moeda convertida para outra.</h2>
+   
+            <div class="boxes">
+                <div class="box"><br>
+                    <label id="valor">Insira o valor</label>
+                    <input type="number" id="valorInserido" required>
+                    <div id="barra1"></div>
+                    <label id="escolha"><pre>De:</pre></label>
+
+                    <select id="escolher1">
+                        <option selected disabled>Selecione</option>
+                        <option><spin>💲</spin> Dolar</option>
+                        <option><spin>💷</spin> Libra</option>
+                        <option><spin>💴</spin> Iene</option>
+                        <option><spin>💶</spin> Euro</option>
+                        <option><spin>💸</spin> Real</option>
+                    </select>
+                    <p> Para: </p>
+
+                    <select id="escolher2">
+                        <option selected disabled>Selecione</option>
+                        <option><spin>💲</spin> Dolar</option>
+                        <option><spin>💷</spin> Libra</option>
+                        <option><spin>💴</spin> Iene</option>
+                        <option><spin>💶</spin> Euro</option>
+                        <option><spin>💸</spin> Real</option>
+                    </select><br>
+
+                                      
+                    <button type="submit" id ="bot" onclick="Converter()">Converter</button>    
+                    <div id="barra2"></div>  
+                    <div id="res">Resultado</div>
+                    <h3 id="valorconvertido"></h3>      
+                </div>   
+            </div>
+        </div>
+        <nav>
+            <a href="https://imersao.dev/" target="_blank">
+                <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" alt="" class="page-logo">
+                </a>
+                <a href="https://www.alura.com.br/" target="_blank">
+                <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="logo-alura">
+                </a>
+        </nav>
+    </body>
+</html>
